@@ -1,0 +1,28 @@
+@use "../Variables";
+
+.app-container {
+  display: flex;
+  justify-content: center;
+
+  &__layout {
+    max-width: 1220px;
+    width: 100%;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+.data-container {
+  &__forcast {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  &__city {
+    font-size: 24px;
+  }
+}

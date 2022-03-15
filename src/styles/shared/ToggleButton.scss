@@ -1,0 +1,28 @@
+@use "../Variables";
+
+.toggle-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.toggle-button {
+  height: 20px;
+  width: 42px;
+  border: 2px solid Variables.$organgeColor;
+  border-radius: 15px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+
+  &__toggler {
+    width: 50%;
+
+    &--active {
+      background-color: Variables.$organgeColor;
+      height: 20px;
+      width: 20px;
+      border-radius: 100%;
+    }
+  }
+}

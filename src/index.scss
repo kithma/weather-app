@@ -1,0 +1,14 @@
+@use "./styles/Variables.scss";
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+.bold {
+  font-weight: 500;
+}
+
+.error {
+  color: Variables.$redColor;
+}
